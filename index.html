@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>MF Technologies — Software House</title>
+  <meta name="description" content="MF Technologies é uma software house de Cuiabá/MT: desenvolvimento de sistemas sob medida, plataformas, aplicativos e consultoria em tecnologia.">
+  <meta name="keywords" content="software house, desenvolvimento de sistemas, consultoria em TI, ERP, aplicativos, Cuiabá">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: FlexStart
+  * Template URL: https://bootstrapmade.com/flexstart-bootstrap-startup-template/
+  * Updated: Nov 01 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+
+  <!-- Ajustes da MF Technologies (não altera o main.css) -->
+  <style>
+    /* Logos dos projetos: todas na mesma caixa, sem distorcer */
+    .proj-logo { width: 192px; height: 56px; object-fit: contain; object-position: left center; flex: none; margin-right: 1rem; }
+    .modal-header { align-items: center; }
+    @media (max-width: 575.98px) { .proj-logo { width: 120px; height: 40px; margin-right: .75rem; } }
+    /* Cards do portfólio: mesma proporção, qualquer que seja a imagem */
+    .portfolio .portfolio-content img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; }
+    /* Galeria de prints dentro do modal (só aparece quando o projeto tem prints) */
+    .proj-shots .carousel-item img { width: 100%; max-height: 420px; object-fit: contain; background: #f6f9ff; border-radius: 8px; }
+    .proj-shots .carousel-indicators { position: static; margin: 10px 0 0; }
+    .proj-shots .carousel-indicators [data-bs-target] { background-color: #4154f1; }
+    .proj-shots .carousel-control-prev-icon, .proj-shots .carousel-control-next-icon { filter: invert(1) grayscale(1); }
+  </style>
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
+
+      <a href="#hero" class="logo d-flex align-items-center me-auto">
+        <h1 class="sitename">MF Technologies</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Início<br></a></li>
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#services">Serviços</a></li>
+          <li><a href="#portfolio">Projetos</a></li>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <a class="btn-getstarted flex-md-shrink-0" href="#contact">Fale comigo</a>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+<!-- Hero Section -->
+    <section id="hero" class="hero section">
+
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
+            <h1 data-aos="fade-up">Sistemas sob medida para o seu negócio funcionar melhor</h1>
+            <p data-aos="fade-up" data-aos-delay="100">Software house especializada em plataformas, aplicativos e sistemas de gestão, do planejamento ao uso no dia a dia.</p>
+            <div class="d-flex flex-column flex-md-row" data-aos="fade-up" data-aos-delay="200">
+              <a href="#portfolio" class="btn-get-started">Ver projetos <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-out">
+            <img src="assets/img/hero-img.png" class="img-fluid animated" alt="Ilustração de sistemas e painéis de gestão">
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+
+<!-- About Section -->
+    <section id="about" class="about section">
+
+      <div class="container" data-aos="fade-up">
+        <div class="row gx-0">
+
+          <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
+            <div class="content">
+              <h3>Quem somos</h3>
+              <h2>Tecnologia desenhada a partir da operação real de cada cliente.</h2>
+              <p>
+                A MF Technologies é a software house de Maicon Ferreira, focada em consultoria em tecnologia e desenvolvimento de sistemas. Cada projeto nasce da rotina de quem vai usar: lojas, escolas, eventos e equipes de campo, com soluções que atendem várias empresas, unidades e estados.
+              </p>
+              <div class="text-center text-lg-start">
+                <a href="#portfolio" class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
+                  <span>Ver projetos</span>
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
+            <img src="assets/img/about.jpg" class="img-fluid" alt="">
+          </div>
+
+        </div>
+      </div>
+
+    </section><!-- /About Section -->
+
+
+<!-- Values Section -->
+    <section id="values" class="values section">
+
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Nossos valores</h2>
+        <p>O que mais valorizamos<br></p>
+      </div>
+
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="card">
+              <img src="assets/img/values-1.png" class="img-fluid" alt="">
+              <h3>Sob medida</h3>
+              <p>O sistema se adapta ao processo do cliente, e não o contrário.</p>
+            </div>
+          </div>
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="card">
+              <img src="assets/img/values-2.png" class="img-fluid" alt="">
+              <h3>Parceria próxima</h3>
+              <p>Conversa direta durante o desenvolvimento e depois que o sistema entra em uso.</p>
+            </div>
+          </div>
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="card">
+              <img src="assets/img/values-3.png" class="img-fluid" alt="">
+              <h3>Foco na rotina real</h3>
+              <p>Funcionalidades pensadas para quem opera o sistema todos os dias.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Values Section -->
+
+
+<!-- Stats Section -->
+    <section id="stats" class="stats section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-4">
+          <div class="col-lg-4 col-md-6">
+            <div class="stats-item d-flex align-items-center w-100 h-100">
+              <i class="bi bi-journal-richtext  flex-shrink-0" style="color: #ee6c20;"></i>
+              <div>
+                <span data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="1" class="purecounter"></span>
+                <p>Projetos desenvolvidos</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="stats-item d-flex align-items-center w-100 h-100">
+              <i class="bi bi-diagram-3  flex-shrink-0" style="color: #15be56;"></i>
+              <div>
+                <span data-purecounter-start="0" data-purecounter-end="4" data-purecounter-duration="1" class="purecounter"></span>
+                <p>Segmentos atendidos</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="stats-item d-flex align-items-center w-100 h-100">
+              <i class="bi bi-people  flex-shrink-0" style="color: #bb0852;"></i>
+              <div>
+                <span data-purecounter-start="0" data-purecounter-end="10000" data-purecounter-duration="1" class="purecounter"></span>
+                <p>Usuários em uma única plataforma</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Stats Section -->
+
+
+<!-- Features Section -->
+    <section id="features" class="features section">
+
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Recursos</h2>
+        <p>O que nossos sistemas entregam<br></p>
+      </div>
+
+      <div class="container">
+        <div class="row gy-5">
+
+          <div class="col-xl-6" data-aos="zoom-out" data-aos-delay="100">
+            <img src="assets/img/features.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-xl-6 d-flex">
+            <div class="row align-self-center gy-4">
+            <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
+              <div class="feature-box d-flex align-items-center">
+                <i class="bi bi-check"></i>
+                <h3>Gestão multi-empresas</h3>
+              </div>
+            </div>
+            <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+              <div class="feature-box d-flex align-items-center">
+                <i class="bi bi-check"></i>
+                <h3>Aplicativo para diaristas</h3>
+              </div>
+            </div>
+            <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
+              <div class="feature-box d-flex align-items-center">
+                <i class="bi bi-check"></i>
+                <h3>Vendas offline</h3>
+              </div>
+            </div>
+            <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
+              <div class="feature-box d-flex align-items-center">
+                <i class="bi bi-check"></i>
+                <h3>Controle de estoque</h3>
+              </div>
+            </div>
+            <div class="col-md-6" data-aos="fade-up" data-aos-delay="600">
+              <div class="feature-box d-flex align-items-center">
+                <i class="bi bi-check"></i>
+                <h3>Relatórios e comparativos</h3>
+              </div>
+            </div>
+            <div class="col-md-6" data-aos="fade-up" data-aos-delay="700">
+              <div class="feature-box d-flex align-items-center">
+                <i class="bi bi-check"></i>
+                <h3>Gestão escolar completa</h3>
+              </div>
+            </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </section><!-- /Features Section -->
+
+
+<!-- Alt Features Section -->
+    <section id="alt-features" class="alt-features section">
+
+      <div class="container">
+        <div class="row gy-5">
+
+          <div class="col-xl-7 d-flex order-2 order-xl-1" data-aos="fade-up" data-aos-delay="200">
+            <div class="row align-self-center gy-5">
+            <div class="col-md-6 icon-box">
+              <i class="bi bi-shop"></i>
+              <div>
+                <h4>Empresas, bandeiras e lojas</h4>
+                <p>Uma estrutura única para operar várias empresas e unidades em diferentes cidades e estados.</p>
+              </div>
+            </div>
+            <div class="col-md-6 icon-box">
+              <i class="bi bi-phone"></i>
+              <div>
+                <h4>Aplicativos para o seu público</h4>
+                <p>Apps simples para quem está em campo ou para os clientes da sua plataforma.</p>
+              </div>
+            </div>
+            <div class="col-md-6 icon-box">
+              <i class="bi bi-wifi-off"></i>
+              <div>
+                <h4>Operação mesmo offline</h4>
+                <p>Vendas e rotinas continuam funcionando quando a internet cai.</p>
+              </div>
+            </div>
+            <div class="col-md-6 icon-box">
+              <i class="bi bi-bar-chart-line"></i>
+              <div>
+                <h4>Relatórios e comparativos</h4>
+                <p>Informação organizada, inclusive comparações entre períodos, para decidir com segurança.</p>
+              </div>
+            </div>
+            <div class="col-md-6 icon-box">
+              <i class="bi bi-calendar-check"></i>
+              <div>
+                <h4>Agenda e reservas</h4>
+                <p>Organização de disponibilidade, turmas, escalas e reservas em um só lugar.</p>
+              </div>
+            </div>
+            <div class="col-md-6 icon-box">
+              <i class="bi bi-people"></i>
+              <div>
+                <h4>Equipe e presença</h4>
+                <p>Controle de funções, presença e rotina diária de quem opera o negócio.</p>
+              </div>
+            </div>
+            </div>
+          </div>
+
+          <div class="col-xl-5 d-flex align-items-center order-1 order-xl-2" data-aos="fade-up" data-aos-delay="100">
+            <img src="assets/img/alt-features.png" class="img-fluid" alt="">
+          </div>
+
+        </div>
+      </div>
+
+    </section><!-- /Alt Features Section -->
+
+
+<!-- Services Section -->
+    <section id="services" class="services section">
+
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Serviços</h2>
+        <p>Conheça o que a MF Technologies faz<br></p>
+      </div>
+
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item item-cyan position-relative">
+              <i class="bi bi-code-slash icon"></i>
+              <h3>Desenvolvimento sob encomenda</h3>
+              <p>Programas e sistemas criados para a necessidade específica do seu negócio.</p>
+              <a href="#contact" class="read-more stretched-link"><span>Fale comigo</span> <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item item-orange position-relative">
+              <i class="bi bi-sliders icon"></i>
+              <h3>Software customizável</h3>
+              <p>Produtos que se adaptam a diferentes empresas, unidades e regras de negócio.</p>
+              <a href="#contact" class="read-more stretched-link"><span>Fale comigo</span> <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item item-teal position-relative">
+              <i class="bi bi-lightbulb icon"></i>
+              <h3>Consultoria em TI</h3>
+              <p>Análise de processos e orientação técnica para escolher o melhor caminho digital.</p>
+              <a href="#contact" class="read-more stretched-link"><span>Fale comigo</span> <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item item-red position-relative">
+              <i class="bi bi-globe2 icon"></i>
+              <h3>Plataformas web</h3>
+              <p>Sistemas online com vários perfis de usuário e acesso organizado.</p>
+              <a href="#contact" class="read-more stretched-link"><span>Fale comigo</span> <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+            <div class="service-item item-indigo position-relative">
+              <i class="bi bi-phone icon"></i>
+              <h3>Aplicativos móveis</h3>
+              <p>Apps para o seu público ou para a sua equipe operacional.</p>
+              <a href="#contact" class="read-more stretched-link"><span>Fale comigo</span> <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+            <div class="service-item item-pink position-relative">
+              <i class="bi bi-receipt icon"></i>
+              <h3>Gestão e ERP</h3>
+              <p>Vendas, estoque, caixa e rotina da empresa reunidos em um só sistema.</p>
+              <a href="#contact" class="read-more stretched-link"><span>Fale comigo</span> <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Services Section -->
+
+
+<!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
+
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Projetos</h2>
+        <p>Alguns dos sistemas que já desenvolvemos</p>
+      </div>
+
+      <div class="container">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+            <li data-filter="*" class="filter-active">Todos</li>
+            <li data-filter=".filter-plataforma">Plataformas</li>
+            <li data-filter=".filter-gestao">Gestão</li>
+            <li data-filter=".filter-educacao">Educação</li>
+          </ul><!-- End Portfolio Filters -->
+
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-plataforma">
+            <div class="portfolio-content h-100">
+              <img src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20600%20450%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%234154f1%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23012970%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22600%22%20height%3D%22450%22%20fill%3D%22url%28%23g%29%22%2F%3E%3Crect%20x%3D%2250%22%20y%3D%2260%22%20width%3D%22500%22%20height%3D%22330%22%20rx%3D%2216%22%20fill%3D%22%23fff%22%20fill-opacity%3D%22.12%22%2F%3E%3Crect%20x%3D%2250%22%20y%3D%2260%22%20width%3D%22500%22%20height%3D%2234%22%20rx%3D%2216%22%20fill%3D%22%23fff%22%20fill-opacity%3D%22.18%22%2F%3E%3Ccircle%20cx%3D%2276%22%20cy%3D%2277%22%20r%3D%226%22%20fill%3D%22%23fff%22%20fill-opacity%3D%22.6%22%2F%3E%3Ccircle%20cx%3D%2298%22%20cy%3D%2277%22%20r%3D%226%22%20fill%3D%22%23fff%22%20fill-opacity%3D%22.6%22%2F%3E%3Ccircle%20cx%3D%22120%22%20cy%3D%2277%22%20r%3D%226%22%20fill%3D%22%23fff%22%20fill-opacity%3D%22.6%22%2F%3E%3Ctext%20x%3D%22300%22%20y%3D%22222%22%20text-anchor%3D%22middle%22%20font-family%3D%22Poppins%2CArial%2Csans-serif%22%20font-size%3D%2248%22%20font-weight%3D%22700%22%20fill%3D%22%23fff%22%3ESGD%3C%2Ftext%3E%3Ctext%20x%3D%22300%22%20y%3D%22268%22%20text-anchor%3D%22middle%22%20font-family%3D%22Nunito%2CArial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%23fff%22%20fill-opacity%3D%22.9%22%3EPlataforma%20%2B%20app%20%2B%20gest%C3%A3o%3C%2Ftext%3E%3C%2Fsvg%3E" class="img-fluid" alt="SGD">
+              <div class="portfolio-info">
+                <h4>SGD</h4>
+                <p>Plataforma com app para diaristas e sistema de gestão operacional.</p>
+                <a href="#proj-sgd" title="Ver detalhes" data-bs-toggle="modal" data-bs-target="#proj-sgd" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+          </div><!-- End Portfolio Item -->
+          <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-educacao filter-gestao">
+            <div class="portfolio-content h-100">
+              <img src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20600%20450%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%2320c997%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%230b5e4a%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22600%22%20height%3D%22450%22%20fill%3D%22url%28%23g%29%22%2F%3E%3Crect%20x%3D%2250%22%20y%3D%2260%22%20width%3D%22500%22%20height%3D%22330%22%20rx%3D%2216%22%20fill%3D%22%23fff%22%20fill-opacity%3D%22.12%22%2F%3E%3Crect%20x%3D%2250%22%20y%3D%2260%22%20width%3D%22500%22%20height%3D%2234%22%20rx%3D%2216%22%20fill%3D%22%23fff%22%20fill-opacity%3D%22.18%22%2F%3E%3Ccircle%20cx%3D%2276%22%20cy%3D%2277%22%20r%3D%226%22%20fill%3D%22%23fff%22%20fill-opacity%3D%22.6%22%2F%3E%3Ccircle%20cx%3D%2298%22%20cy%3D%2277%22%20r%3D%226%22%20fill%3D%22%23fff%22%20fill-opacity%3D%22.6%22%2F%3E%3Ccircle%20cx%3D%22120%22%20cy%3D%2277%22%20r%3D%226%22%20fill%3D%22%23fff%22%20fill-opacity%3D%22.6%22%2F%3E%3Ctext%20x%3D%22300%22%20y%3D%22222%22%20text-anchor%3D%22middle%22%20font-family%3D%22Poppins%2CArial%2Csans-serif%22%20font-size%3D%2248%22%20font-weight%3D%22700%22%20fill%3D%22%23fff%22%3EPequenoMundo360%3C%2Ftext%3E%3Ctext%20x%3D%22300%22%20y%3D%22268%22%20text-anchor%3D%22middle%22%20font-family%3D%22Nunito%2CArial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%23fff%22%20fill-opacity%3D%22.9%22%3EGest%C3%A3o%20escolar%20e%20de%20creches%3C%2Ftext%3E%3C%2Fsvg%3E" class="img-fluid" alt="PequenoMundo360">
+              <div class="portfolio-info">
+                <h4>PequenoMundo360</h4>
+                <p>Sistema de gestão escolar com controle voltado para creche.</p>
+                <a href="#proj-pequenomundo" title="Ver detalhes" data-bs-toggle="modal" data-bs-target="#proj-pequenomundo" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+          </div><!-- End Portfolio Item -->
+          <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-educacao">
+            <div class="portfolio-content h-100">
+              <img src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20600%20450%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23fd7e14%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%238a3a00%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22600%22%20height%3D%22450%22%20fill%3D%22url%28%23g%29%22%2F%3E%3Crect%20x%3D%2250%22%20y%3D%2260%22%20width%3D%22500%22%20height%3D%22330%22%20rx%3D%2216%22%20fill%3D%22%23fff%22%20fill-opacity%3D%22.12%22%2F%3E%3Crect%20x%3D%2250%22%20y%3D%2260%22%20width%3D%22500%22%20height%3D%2234%22%20rx%3D%2216%22%20fill%3D%22%23fff%22%20fill-opacity%3D%22.18%22%2F%3E%3Ccircle%20cx%3D%2276%22%20cy%3D%2277%22%20r%3D%226%22%20fill%3D%22%23fff%22%20fill-opacity%3D%22.6%22%2F%3E%3Ccircle%20cx%3D%2298%22%20cy%3D%2277%22%20r%3D%226%22%20fill%3D%22%23fff%22%20fill-opacity%3D%22.6%22%2F%3E%3Ccircle%20cx%3D%22120%22%20cy%3D%2277%22%20r%3D%226%22%20fill%3D%22%23fff%22%20fill-opacity%3D%22.6%22%2F%3E%3Ctext%20x%3D%22300%22%20y%3D%22222%22%20text-anchor%3D%22middle%22%20font-family%3D%22Poppins%2CArial%2Csans-serif%22%20font-size%3D%2248%22%20font-weight%3D%22700%22%20fill%3D%22%23fff%22%3ESocioeducandos%3C%2Ftext%3E%3Ctext%20x%3D%22300%22%20y%3D%22268%22%20text-anchor%3D%22middle%22%20font-family%3D%22Nunito%2CArial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%23fff%22%20fill-opacity%3D%22.9%22%3EAn%C3%A1lise%20de%20fichas%20PIA%3C%2Ftext%3E%3C%2Fsvg%3E" class="img-fluid" alt="Socioeducandos">
+              <div class="portfolio-info">
+                <h4>Socioeducandos</h4>
+                <p>Análise de fichas PIA com comparativos entre os anos.</p>
+                <a href="#proj-socioeducandos" title="Ver detalhes" data-bs-toggle="modal" data-bs-target="#proj-socioeducandos" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+          </div><!-- End Portfolio Item -->
+          <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-plataforma">
+            <div class="portfolio-content h-100">
+              <img src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20600%20450%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23bb0852%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%234a0222%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22600%22%20height%3D%22450%22%20fill%3D%22url%28%23g%29%22%2F%3E%3Crect%20x%3D%2250%22%20y%3D%2260%22%20width%3D%22500%22%20height%3D%22330%22%20rx%3D%2216%22%20fill%3D%22%23fff%22%20fill-opacity%3D%22.12%22%2F%3E%3Crect%20x%3D%2250%22%20y%3D%2260%22%20width%3D%22500%22%20height%3D%2234%22%20rx%3D%2216%22%20fill%3D%22%23fff%22%20fill-opacity%3D%22.18%22%2F%3E%3Ccircle%20cx%3D%2276%22%20cy%3D%2277%22%20r%3D%226%22%20fill%3D%22%23fff%22%20fill-opacity%3D%22.6%22%2F%3E%3Ccircle%20cx%3D%2298%22%20cy%3D%2277%22%20r%3D%226%22%20fill%3D%22%23fff%22%20fill-opacity%3D%22.6%22%2F%3E%3Ccircle%20cx%3D%22120%22%20cy%3D%2277%22%20r%3D%226%22%20fill%3D%22%23fff%22%20fill-opacity%3D%22.6%22%2F%3E%3Ctext%20x%3D%22300%22%20y%3D%22222%22%20text-anchor%3D%22middle%22%20font-family%3D%22Poppins%2CArial%2Csans-serif%22%20font-size%3D%2248%22%20font-weight%3D%22700%22%20fill%3D%22%23fff%22%3EClubeF%C3%A1cil%3C%2Ftext%3E%3Ctext%20x%3D%22300%22%20y%3D%22268%22%20text-anchor%3D%22middle%22%20font-family%3D%22Nunito%2CArial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%23fff%22%20fill-opacity%3D%22.9%22%3EMarketplace%20para%20eventos%3C%2Ftext%3E%3C%2Fsvg%3E" class="img-fluid" alt="ClubeFácil">
+              <div class="portfolio-info">
+                <h4>ClubeFácil</h4>
+                <p>Marketplace que reúne tudo para festas e eventos em um só lugar.</p>
+                <a href="#proj-clubefacil" title="Ver detalhes" data-bs-toggle="modal" data-bs-target="#proj-clubefacil" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+          </div><!-- End Portfolio Item -->
+          <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-gestao">
+            <div class="portfolio-content h-100">
+              <img src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20600%20450%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%230dcaf0%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23055160%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22600%22%20height%3D%22450%22%20fill%3D%22url%28%23g%29%22%2F%3E%3Crect%20x%3D%2250%22%20y%3D%2260%22%20width%3D%22500%22%20height%3D%22330%22%20rx%3D%2216%22%20fill%3D%22%23fff%22%20fill-opacity%3D%22.12%22%2F%3E%3Crect%20x%3D%2250%22%20y%3D%2260%22%20width%3D%22500%22%20height%3D%2234%22%20rx%3D%2216%22%20fill%3D%22%23fff%22%20fill-opacity%3D%22.18%22%2F%3E%3Ccircle%20cx%3D%2276%22%20cy%3D%2277%22%20r%3D%226%22%20fill%3D%22%23fff%22%20fill-opacity%3D%22.6%22%2F%3E%3Ccircle%20cx%3D%2298%22%20cy%3D%2277%22%20r%3D%226%22%20fill%3D%22%23fff%22%20fill-opacity%3D%22.6%22%2F%3E%3Ccircle%20cx%3D%22120%22%20cy%3D%2277%22%20r%3D%226%22%20fill%3D%22%23fff%22%20fill-opacity%3D%22.6%22%2F%3E%3Ctext%20x%3D%22300%22%20y%3D%22222%22%20text-anchor%3D%22middle%22%20font-family%3D%22Poppins%2CArial%2Csans-serif%22%20font-size%3D%2248%22%20font-weight%3D%22700%22%20fill%3D%22%23fff%22%3EPDVix%20ERP%3C%2Ftext%3E%3Ctext%20x%3D%22300%22%20y%3D%22268%22%20text-anchor%3D%22middle%22%20font-family%3D%22Nunito%2CArial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%23fff%22%20fill-opacity%3D%22.9%22%3EGest%C3%A3o%20completa%20do%20neg%C3%B3cio%3C%2Ftext%3E%3C%2Fsvg%3E" class="img-fluid" alt="PDVix ERP">
+              <div class="portfolio-info">
+                <h4>PDVix ERP</h4>
+                <p>ERP com vendas, estoque, caixa e vendas offline.</p>
+                <a href="#proj-pdvix" title="Ver detalhes" data-bs-toggle="modal" data-bs-target="#proj-pdvix" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+          </div><!-- End Portfolio Item -->
+
+          </div><!-- End Portfolio Container -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Section -->
+
+
+<!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contato</h2>
+        <p>Fale com a MF Technologies</p>
+      </div>
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-12">
+            <div class="row gy-4">
+            <div class="col-md-6 col-lg-3">
+              <div class="info-item" data-aos="fade" data-aos-delay="200">
+                <i class="bi bi-geo-alt"></i>
+                <h3>Endereço</h3>
+                <p>R. Vinte e Quatro, 16, Quadra 49</p>
+                <p>Jardim Florianópolis, Cuiabá/MT</p>
+                <p>CEP 78.055-842</p>
+              </div>
+            </div><!-- End Info Item -->
+            <div class="col-md-6 col-lg-3">
+              <div class="info-item" data-aos="fade" data-aos-delay="200">
+                <i class="bi bi-envelope"></i>
+                <h3>E-mail</h3>
+                <p><a href="mailto:maiconferreira@appclubefacil.com.br">maiconferreira@appclubefacil.com.br</a></p>
+              </div>
+            </div><!-- End Info Item -->
+            <div class="col-md-6 col-lg-3">
+              <div class="info-item" data-aos="fade" data-aos-delay="200">
+                <i class="bi bi-building"></i>
+                <h3>Empresa</h3>
+                <p>Maicon Kaue Ferreira Vera</p>
+                <p>CNPJ 64.906.213/0001-60</p>
+              </div>
+            </div><!-- End Info Item -->
+            <div class="col-md-6 col-lg-3">
+              <div class="info-item" data-aos="fade" data-aos-delay="200">
+                <i class="bi bi-code-slash"></i>
+                <h3>Atuação</h3>
+                <p>Desenvolvimento de sistemas</p>
+                <p>Consultoria em TI</p>
+              </div>
+            </div><!-- End Info Item -->
+            <div class="col-12">
+              <div class="info-item" data-aos="fade" data-aos-delay="200">
+                <i class="bi bi-whatsapp" style="color:#25d366"></i>
+                <h3>WhatsApp</h3>
+                <p>(65) 99357-3829</p>
+                <a href="https://wa.me/5565993573829?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20MF%20Technologies%20e%20gostaria%20de%20falar%20sobre%20um%20sistema." target="_blank" rel="noopener" class="btn-get-started" style="background:#25d366;border-color:#25d366;display:inline-flex;align-items:center;gap:8px;margin-top:8px"><i class="bi bi-whatsapp" style="margin:0;color:#fff;font-size:18px"></i> Chamar no WhatsApp</a>
+              </div>
+            </div><!-- End WhatsApp Item -->
+          </div>
+          </div>
+
+          <div class="col-lg-6 d-none" id="contact-form-col"><!-- formulário oculto (para reativar, remova a classe d-none) -->
+            <form id="contact-form" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+              <div class="row gy-4">
+
+                <div class="col-md-6">
+                  <input type="text" name="name" class="form-control" placeholder="Seu nome" required="">
+                </div>
+
+                <div class="col-md-6 ">
+                  <input type="email" class="form-control" name="email" placeholder="Seu e-mail" required="">
+                </div>
+
+                <div class="col-12">
+                  <input type="text" class="form-control" name="subject" placeholder="Assunto" required="">
+                </div>
+
+                <div class="col-12">
+                  <textarea class="form-control" name="message" rows="6" placeholder="Mensagem" required=""></textarea>
+                </div>
+
+                <div class="col-12 text-center">
+                  <button type="submit">Enviar mensagem</button>
+                </div>
+
+              </div>
+            </form>
+          </div><!-- End Contact Form -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+
+  </main>
+
+  <footer id="footer" class="footer">
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 footer-about">
+          <a href="#hero" class="d-flex align-items-center">
+            <span class="sitename">MF Technologies</span>
+          </a>
+          <div class="footer-contact pt-3">
+            <p>R. Vinte e Quatro, 16, Quadra 49</p>
+            <p>Jardim Florianópolis, Cuiabá/MT, CEP 78.055-842</p>
+            <p class="mt-3"><strong>E-mail:</strong> <span><a href="mailto:maiconferreira@appclubefacil.com.br" style="color:inherit">maiconferreira@appclubefacil.com.br</a></span></p>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Links úteis</h4>
+          <ul>
+            <li><i class="bi bi-chevron-right"></i> <a href="#hero">Início</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#about">Sobre</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#services">Serviços</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#portfolio">Projetos</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#contact">Contato</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Serviços</h4>
+          <ul>
+            <li><i class="bi bi-chevron-right"></i> <a href="#services">Desenvolvimento de sistemas</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#services">Software customizável</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#services">Consultoria em TI</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-4 col-md-12 footer-contact">
+          <h4>Dados da empresa</h4>
+          <p><strong>Razão social:</strong> Maicon Kaue Ferreira Vera</p>
+          <p><strong>Nome fantasia:</strong> MF Technologies</p>
+          <p><strong>CNPJ:</strong> 64.906.213/0001-60</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">MF Technologies — Software House</strong> <span>Todos os direitos reservados</span></p>
+      <p class="mb-0" style="font-size:13px">Os projetos exibidos pertencem aos respectivos clientes.</p>
+    </div>
+
+  </footer>
+
+  <div class="modal fade" id="proj-sgd" tabindex="-1" aria-labelledby="proj-sgd-t" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <img src="https://idealsolucoes.app.br/assets/img/logo.jpeg" alt="Logo SGD" class="proj-logo" onerror="this.remove()"><div><h4 class="modal-title mb-0" id="proj-sgd-t">SGD — Sistema de Gestão Diária</h4><small class="text-muted">Plataforma, aplicativo e gestão operacional</small></div>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+        </div>
+        <div class="modal-body"><p>Plataforma completa com dois lados: um aplicativo para diaristas e freelancers e um sistema privado de gestão operacional do dia a dia.</p><p>Atende funções como operador de caixa, repositor e atendente, organizando empresas, bandeiras e lojas em vários estados. Já passa de 10 mil usuários em diversas cidades.</p><ul class="list-unstyled mt-3 mb-0"><li class="mb-1"><i class="bi bi-check-circle-fill me-2" style="color:#4154f1"></i>App para diaristas e freelancers</li><li class="mb-1"><i class="bi bi-check-circle-fill me-2" style="color:#4154f1"></i>Gestão operacional multi-funções</li><li class="mb-1"><i class="bi bi-check-circle-fill me-2" style="color:#4154f1"></i>Multi-empresas, bandeiras e lojas</li><li class="mb-1"><i class="bi bi-check-circle-fill me-2" style="color:#4154f1"></i>Vários estados e cidades</li></ul></div>
+        <div class="modal-footer"><a href="#contact" class="btn-get-started" data-bs-dismiss="modal">Quero um sistema assim</a></div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="proj-pequenomundo" tabindex="-1" aria-labelledby="proj-pequenomundo-t" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <img src="assets/img/pequenomundo360.png" alt="Logo PequenoMundo360" class="proj-logo" onerror="this.remove()">
+          <div><h4 class="modal-title mb-0" id="proj-pequenomundo-t">PequenoMundo360</h4><small class="text-muted">Gestão escolar e de creches</small></div>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+        </div>
+        <div class="modal-body"><p>Sistema de gestão escolar com todo o controle voltado para a rotina de creche, reunindo em um só lugar o que a escola precisa no dia a dia.</p><ul class="list-unstyled mt-3 mb-0"><li class="mb-1"><i class="bi bi-check-circle-fill me-2" style="color:#4154f1"></i>Matrículas e declarações</li><li class="mb-1"><i class="bi bi-check-circle-fill me-2" style="color:#4154f1"></i>Presenças e turmas</li><li class="mb-1"><i class="bi bi-check-circle-fill me-2" style="color:#4154f1"></i>Planos de aula diários e semanais</li><li class="mb-1"><i class="bi bi-check-circle-fill me-2" style="color:#4154f1"></i>Mensalidades</li><li class="mb-1"><i class="bi bi-check-circle-fill me-2" style="color:#4154f1"></i>Relatórios</li></ul></div>
+        <div class="modal-footer"><a href="#contact" class="btn-get-started" data-bs-dismiss="modal">Quero um sistema assim</a></div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="proj-socioeducandos" tabindex="-1" aria-labelledby="proj-socioeducandos-t" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <img src="assets/img/socioeducandos.png" alt="Logo Socioeducandos" class="proj-logo" onerror="this.remove()">
+          <div><h4 class="modal-title mb-0" id="proj-socioeducandos-t">Socioeducandos</h4><small class="text-muted">Análise de fichas PIA — medidas socioeducativas</small></div>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+        </div>
+        <div class="modal-body"><p>Sistema de análise de fichas PIA voltado para o projeto de medidas socioeducativas.</p><p>Traz comparações entre os anos e vários fatores, permitindo analisar as fichas dos adolescentes com mais clareza.</p><ul class="list-unstyled mt-3 mb-0"><li class="mb-1"><i class="bi bi-check-circle-fill me-2" style="color:#4154f1"></i>Comparativo entre anos</li><li class="mb-1"><i class="bi bi-check-circle-fill me-2" style="color:#4154f1"></i>Análise por vários fatores</li><li class="mb-1"><i class="bi bi-check-circle-fill me-2" style="color:#4154f1"></i>Fichas dos adolescentes</li></ul></div>
+        <div class="modal-footer"><a href="#contact" class="btn-get-started" data-bs-dismiss="modal">Quero um sistema assim</a></div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="proj-clubefacil" tabindex="-1" aria-labelledby="proj-clubefacil-t" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <img src="assets/img/clubefacil.png" alt="Logo ClubeFácil" class="proj-logo" onerror="this.remove()">
+          <div><h4 class="modal-title mb-0" id="proj-clubefacil-t">ClubeFácil</h4><small class="text-muted">Plataforma marketplace voltada para eventos</small></div>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+        </div>
+        <div class="modal-body"><p>Plataforma que reúne espaços, decoração, som e brinquedos para festas e eventos. O objetivo é tirar a bagunça da organização: encontrar, escolher e reservar de forma simples e estruturada.</p><div class="row gy-3 mt-1"><div class="col-md-6"><h5 style="color:#012970">Para quem organiza o evento</h5><p class="mb-0">Pesquisa, compara e monta a combinação ideal sem procurar cada item em lugares diferentes, com sugestões para completar o evento.</p></div><div class="col-md-6"><h5 style="color:#012970">Para quem anuncia</h5><p class="mb-0">Cadastra espaços e itens, mantém a agenda organizada, alcança novos clientes e aumenta as oportunidades com ofertas complementares.</p></div></div></div>
+        <div class="modal-footer"><a href="#contact" class="btn-get-started" data-bs-dismiss="modal">Quero um sistema assim</a></div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="proj-pdvix" tabindex="-1" aria-labelledby="proj-pdvix-t" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <img src="assets/img/pdvix.jpeg" alt="Logo PDVix ERP" class="proj-logo" onerror="this.remove()">
+          <div><h4 class="modal-title mb-0" id="proj-pdvix-t">PDVix ERP</h4><small class="text-muted">Gestão completa do seu negócio</small></div>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+        </div>
+        <div class="modal-body"><p>ERP para controlar o negócio de ponta a ponta, do balcão ao fechamento do caixa, inclusive quando a internet cai.</p><ul class="list-unstyled mt-3 mb-0"><li class="mb-1"><i class="bi bi-check-circle-fill me-2" style="color:#4154f1"></i>Vendas e comandas</li><li class="mb-1"><i class="bi bi-check-circle-fill me-2" style="color:#4154f1"></i>Produtos e estoque</li><li class="mb-1"><i class="bi bi-check-circle-fill me-2" style="color:#4154f1"></i>Clientes e fornecedores</li><li class="mb-1"><i class="bi bi-check-circle-fill me-2" style="color:#4154f1"></i>Fechamento de caixa</li><li class="mb-1"><i class="bi bi-check-circle-fill me-2" style="color:#4154f1"></i>Vendas offline</li></ul></div>
+        <div class="modal-footer"><a href="#contact" class="btn-get-started" data-bs-dismiss="modal">Quero um sistema assim</a></div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script>
+    /* ============ PRINTS DOS PROJETOS ============
+       Para cada projeto, liste os caminhos das imagens entre colchetes.
+       - Com prints: aparece uma galeria no modal e o 1º print vira a capa do card.
+       - Sem prints ([]): nada aparece e o card mantém a capa padrão (ex.: SGD).
+       Exemplo:  pdvix: ['assets/img/prints/pdvix-1.png', 'assets/img/prints/pdvix-2.png'],  */
+    var PRINTS = {
+      sgd: ['assets/img/prints/sgd-1.png','assets/img/prints/sgd-2.png','assets/img/prints/sgd-3.png'],
+      pequenomundo: ['assets/img/prints/pequenomundo360-1.png', 'assets/img/prints/pequenomundo360-2.png', 'assets/img/prints/pequenomundo360-3.png'],
+      socioeducandos: ['assets/img/prints/socioeducandos-1.png', 'assets/img/prints/socioeducandos-2.png'],
+      clubefacil: ['assets/img/prints/clubefacil-1.png'],
+      pdvix: ['assets/img/prints/pdvix-1.png']
+    };
+
+    Object.keys(PRINTS).forEach(function (id) {
+      var list = PRINTS[id];
+      if (!list || !list.length) return;
+
+      var modal = document.getElementById('proj-' + id);
+      var title = modal.querySelector('.modal-title').textContent;
+      var cid = 'shots-' + id, dots = '', items = '';
+      list.forEach(function (src, i) {
+        dots += '<button type="button" data-bs-target="#' + cid + '" data-bs-slide-to="' + i + '"' + (i ? '' : ' class="active" aria-current="true"') + ' aria-label="Print ' + (i + 1) + '"></button>';
+        items += '<div class="carousel-item' + (i ? '' : ' active') + '"><img src="' + src + '" alt="Print ' + (i + 1) + ' de ' + title + '" loading="lazy"></div>';
+      });
+      var multi = list.length > 1;
+      modal.querySelector('.modal-body').insertAdjacentHTML('beforeend',
+        '<div id="' + cid + '" class="carousel slide proj-shots mt-4">' +
+          (multi ? '<div class="carousel-inner">' : '<div class="carousel-inner">') + items + '</div>' +
+          (multi ? '<button class="carousel-control-prev" type="button" data-bs-target="#' + cid + '" data-bs-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="visually-hidden">Anterior</span></button>' +
+                   '<button class="carousel-control-next" type="button" data-bs-target="#' + cid + '" data-bs-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="visually-hidden">Próximo</span></button>' +
+                   '<div class="carousel-indicators">' + dots + '</div>' : '') +
+        '</div>');
+
+      var link = document.querySelector('.details-link[data-bs-target="#proj-' + id + '"]');
+      var cover = link && link.closest('.portfolio-content').querySelector('img');
+      if (cover) cover.src = list[0];
+    });
+  </script>
+  <script src="assets/js/main.js"></script>
+
+  <script>
+    // Formulário de contato: abre o e-mail do visitante já preenchido (não precisa de servidor)
+    var cf = document.getElementById('contact-form');
+    if (cf) cf.addEventListener('submit', function (e) {
+      e.preventDefault();
+      var f = e.target;
+      var body = f.message.value + '\n\n' + f.name.value + ' (' + f.email.value + ')';
+      location.href = 'mailto:maiconferreira@appclubefacil.com.br?subject=' + encodeURIComponent(f.subject.value) + '&body=' + encodeURIComponent(body);
+    });
+  </script>
+
+</body>
+
+</html>
